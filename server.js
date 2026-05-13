@@ -5,6 +5,7 @@ import router from "./router/userRouter.js";
 
 const app = express();
 configDotenv();
+app.use(express.json());
 
 connetion();
 app.use("/user", router);

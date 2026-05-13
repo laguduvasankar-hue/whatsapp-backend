@@ -4,7 +4,7 @@ import User from "../controller/userController.js"
 const router =express.Router()
 
 
-router.post('/Register',User.register)
+router.post('/register',User.register)
 
 
 
